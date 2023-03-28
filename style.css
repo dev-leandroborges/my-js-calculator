@@ -16,3 +16,12 @@
 button {
     width: 38px;
 }
+
+.put {
+    background-color: yellow;
+    width: 170px;
+    height: 30px;
+    font-size: 25px;
+    margin: 20px;
+    text-align: end;
+}
