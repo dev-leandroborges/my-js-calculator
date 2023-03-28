@@ -1,3 +1,3 @@
 function calcular (num) {
-    document.querySelector(".put").innerHTML = num;
+    document.querySelector(".put").innerHTML += num;
 }
