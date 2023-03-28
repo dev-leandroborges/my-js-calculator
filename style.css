@@ -1,6 +1,11 @@
+.container {
+    background: red;
+    width: 50vh;
+    
+    
+}
 
-
-content {
+.content {
     display: flex;
     justify-content: center;
     align-items: center;
