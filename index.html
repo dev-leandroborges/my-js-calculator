@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
-    <title>Document</title>
+    <title>My-js-calculator</title>
 </head>
 <body>
-    <div class="container">
+    
         
-        <div class="content">
-            <h1>My-js-calculator</h1>
+        <div class="box">
+            <h1 id="titulo">My-js-calculator</h1>
             <p type="number" class="put"></p>
 
             <row>
-                <button onclick="clean()">C</button>
+                <button onclick="clean()" id="limpar">C</button>
                 <button onclick="backspace()"><-</button>
                 <button onclick="insert('*')">(*)</button>
                 
@@ -46,11 +46,11 @@
             <row>
                 <button onclick="insert('0')">0</button>
                 <button onclick="insert('.')">.</button>
-                <button onclick="compute()">(=)</button>
+                <button onclick="compute()" id="igual">(=)</button>
                 
             </row>
-        </content>
-    </div>
+        </div>
+    
 
     
 </body>

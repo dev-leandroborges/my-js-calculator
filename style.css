@@ -1,27 +1,60 @@
-.container {
-    background: red;
-    width: 50vh;
-    
-    
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.content {
+body {
+    background-color: rebeccapurple;
+    height: 100vh;
+    text-align: center;
+
+}
+
+#titulo{
+    font-size: 30px;
+    color: aqua;
+}
+
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
     
+    background: rgba(128, 128, 128, 0.959);
+    padding: 20px;
+    border-radius: 10px;
+    width: 45vh;
 }
 
 button {
-    width: 38px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: grab;
+    border: none;
+}
+
+#igual {
+    width: 104px;
+}
+
+#limpar {
+    width: 104px;
+}
+
+button:hover {
+    background-color: aqua;
 }
 
 .put {
-    background-color: yellow;
-    width: 170px;
-    height: 30px;
-    font-size: 25px;
-    margin: 20px;
+    background-color: black;
+    width: 212px;
+    height: 35px;
+    font-size: 30px;
+    margin: 5px;
     text-align: end;
+    color: aqua;
 }
